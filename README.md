@@ -43,13 +43,9 @@ Stop Omadora by using the power menu or executing `omadora-cmd-stop` or `uwsm st
 Check out the [FAQ.md](FAQ.md).
 
 ## Contribution
-#### support the original repo
-
-Feel free to submit issues and PRs for improvement, I will do my best to address them.
-
-If you like this project, then please also feel free to help me out and [Sponsor via Github](https://github.com/sponsors/elpritchos) or ...
-
-[![Buy Me a Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://www.buymeacoffee.com/elpritchos)
+#### support the original repo from elpritchos
+buy him a coffe
+https://github.com/elpritchos/omadora
 
 ## License
 
