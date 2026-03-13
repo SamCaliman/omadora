@@ -6,4 +6,3 @@ cargo install \
   bluetui \
   cargo-update \
   eza \
-  impala
