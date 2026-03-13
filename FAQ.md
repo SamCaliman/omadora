@@ -1,17 +1,5 @@
 # Frequently Asked Questions
 
-## How do I perform a WiFi only install?
-
-If performing a WiFi only install, you will likely need to select and install the `networkmanager-submodules` group temporarily during the Fedora installation steps.
-After the Fedora OS installation, `nmcli` can be used to connect to your WiFi network.
-
-When starting the Omadora install the guard check may prompt due to the extra package group being installed, this is fine to continue.
-During the install Network Manager will be completely removed and replaced with the `iwd` package to handle WiFi connections.
-
-After installation, use `iwctl` or the Wiremix TUI to reconnect to your WiFi network as usual.
-
-> **NOTE:** There is also a chance you may be missing the correct WiFi device drivers after the initial Fedora installation, in this case, you can use the bootable media to boot into Recovery Mode and get a shell, then `chroot /mnt/sysimage`, and from there connect and install the Hardware Support package group  `sudo dnf group install -y hardware-support`, or determine and install the specific drivers needed.
-
 ## Where is the documentation for Omadora?
 
 In general, Omadora reimplements much of the same functionality, keybindings, etc., that is in Omarchy, and therefore the [The Omarchy Manual](https://learn.omacom.io/) can be used as a guide for Omadora.
