@@ -212,7 +212,8 @@ show_remove_menu() {
 }
 
 show_update_menu() {
-  case $(menu "Update" "  Omadora\n  Config\n󰸌  Themes\n  Process\n󰇅  Hardware\n  Password\n  Timezone") in
+  case $(menu "Update" "  System\n  Omadora\n  Config\n󰸌  Themes\n  Process\n󰇅  Hardware\n  Password\n  Timezone") in
+  *System*) present_terminal omadora-update-no-git;;
   *Omadora*) present_terminal omadora-update ;;
   *Config*) show_update_config_menu ;;
   *Themes*) present_terminal omadora-theme-update ;;
