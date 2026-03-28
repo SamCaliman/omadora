@@ -9,7 +9,7 @@ However, as the implementation closely matches Omarchy, adding extra features fr
 Read more about Omarchy itself at [omarchy.org](https://omarchy.org).
 
 ## WTF (Why the fork)??
-This fork was make because i need NetworkManger for my vpn apps to work, and i wanted a simpler install with a default fedora image.
+This fork was made because i needed NetworkManger for my vpn apps to work, and i wanted a simpler install with a default fedora image.
 
 ## Important
 
